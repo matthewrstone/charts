@@ -1,0 +1,11 @@
+questions:
+  - variable: TZ
+    label: Timezone
+    schema:
+      type: string
+      default: Etc/UTC
+      required: true
+      $ref:
+        - definitions/timezone
+
+  
